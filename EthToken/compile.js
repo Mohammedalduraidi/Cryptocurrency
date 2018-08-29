@@ -15,5 +15,5 @@ const contracts = {
   }
 };
 let compiled = solc.compile(contracts, 1);
-console.log(compiled); //comment if you want
+// console.log(compiled); //comment if you want my comment <3
 module.exports  = compiled.contracts[ 'BCCoin.sol:BCCoin'];
